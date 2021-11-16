@@ -144,7 +144,6 @@ proxies:
   - {name: Pool_ 22, server: 212.102.44.71, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb, server: 212.102.44.88, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: Pool_ | 3.52Mb, server: 195.181.171.241, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ | 1.83Mb, server: 103.39.132.189, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: Pool_馃嚠馃嚦IN_2625 | 2.42Mb, server: 103.39.132.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 🇷🇴 Pool_馃嚪馃嚧RO_4289, server: 185.124.240.167, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: 🇷🇴 Pool_馃嚪馃嚧RO_4298, server: 185.124.240.167, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
@@ -292,7 +291,6 @@ proxies:
   - {name: 103.152.151.86:40093, server: 103.152.151.86, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: Pool_ 35, server: 103.152.151.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: Pool__409 | 2.11Mb, server: 45.130.137.16, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 馃嚠馃嚦IN_2599 | 2.04Mb, server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Pool__5820, server: 66.115.182.106, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: Pool_ 36, server: 66.115.147.92, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: Pool_ 37, server: 66.115.147.92, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
@@ -455,7 +453,6 @@ proxy-groups:
       - Pool_ 22
       - 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb
       - Pool_ | 3.52Mb
-      - Pool_ | 1.83Mb
       - Pool_馃嚠馃嚦IN_2625 | 2.42Mb
       - 🇷🇴 Pool_馃嚪馃嚧RO_4289
       - 🇷🇴 Pool_馃嚪馃嚧RO_4298
@@ -603,7 +600,6 @@ proxy-groups:
       - 103.152.151.86:40093
       - Pool_ 35
       - Pool__409 | 2.11Mb
-      - 馃嚠馃嚦IN_2599 | 2.04Mb
       - Pool__5820
       - Pool_ 36
       - Pool_ 37
@@ -766,7 +762,6 @@ proxy-groups:
       - Pool_ 22
       - 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb
       - Pool_ | 3.52Mb
-      - Pool_ | 1.83Mb
       - Pool_馃嚠馃嚦IN_2625 | 2.42Mb
       - 🇷🇴 Pool_馃嚪馃嚧RO_4289
       - 🇷🇴 Pool_馃嚪馃嚧RO_4298
@@ -914,7 +909,6 @@ proxy-groups:
       - 103.152.151.86:40093
       - Pool_ 35
       - Pool__409 | 2.11Mb
-      - 馃嚠馃嚦IN_2599 | 2.04Mb
       - Pool__5820
       - Pool_ 36
       - Pool_ 37
@@ -1077,7 +1071,6 @@ proxy-groups:
       - Pool_ 22
       - 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb
       - Pool_ | 3.52Mb
-      - Pool_ | 1.83Mb
       - Pool_馃嚠馃嚦IN_2625 | 2.42Mb
       - 🇷🇴 Pool_馃嚪馃嚧RO_4289
       - 🇷🇴 Pool_馃嚪馃嚧RO_4298
@@ -1225,7 +1218,6 @@ proxy-groups:
       - 103.152.151.86:40093
       - Pool_ 35
       - Pool__409 | 2.11Mb
-      - 馃嚠馃嚦IN_2599 | 2.04Mb
       - Pool__5820
       - Pool_ 36
       - Pool_ 37
@@ -1387,7 +1379,6 @@ proxy-groups:
       - Pool_ 22
       - 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb
       - Pool_ | 3.52Mb
-      - Pool_ | 1.83Mb
       - Pool_馃嚠馃嚦IN_2625 | 2.42Mb
       - 🇷🇴 Pool_馃嚪馃嚧RO_4289
       - 🇷🇴 Pool_馃嚪馃嚧RO_4298
@@ -1535,7 +1526,6 @@ proxy-groups:
       - 103.152.151.86:40093
       - Pool_ 35
       - Pool__409 | 2.11Mb
-      - 馃嚠馃嚦IN_2599 | 2.04Mb
       - Pool__5820
       - Pool_ 36
       - Pool_ 37
@@ -1697,7 +1687,6 @@ proxy-groups:
       - Pool_ 22
       - 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb
       - Pool_ | 3.52Mb
-      - Pool_ | 1.83Mb
       - Pool_馃嚠馃嚦IN_2625 | 2.42Mb
       - 🇷🇴 Pool_馃嚪馃嚧RO_4289
       - 🇷🇴 Pool_馃嚪馃嚧RO_4298
@@ -1845,7 +1834,6 @@ proxy-groups:
       - 103.152.151.86:40093
       - Pool_ 35
       - Pool__409 | 2.11Mb
-      - 馃嚠馃嚦IN_2599 | 2.04Mb
       - Pool__5820
       - Pool_ 36
       - Pool_ 37
@@ -2007,7 +1995,6 @@ proxy-groups:
       - Pool_ 22
       - 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb
       - Pool_ | 3.52Mb
-      - Pool_ | 1.83Mb
       - Pool_馃嚠馃嚦IN_2625 | 2.42Mb
       - 🇷🇴 Pool_馃嚪馃嚧RO_4289
       - 🇷🇴 Pool_馃嚪馃嚧RO_4298
@@ -2155,7 +2142,6 @@ proxy-groups:
       - 103.152.151.86:40093
       - Pool_ 35
       - Pool__409 | 2.11Mb
-      - 馃嚠馃嚦IN_2599 | 2.04Mb
       - Pool__5820
       - Pool_ 36
       - Pool_ 37
@@ -2318,7 +2304,6 @@ proxy-groups:
       - Pool_ 22
       - 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb
       - Pool_ | 3.52Mb
-      - Pool_ | 1.83Mb
       - Pool_馃嚠馃嚦IN_2625 | 2.42Mb
       - 🇷🇴 Pool_馃嚪馃嚧RO_4289
       - 🇷🇴 Pool_馃嚪馃嚧RO_4298
@@ -2466,7 +2451,6 @@ proxy-groups:
       - 103.152.151.86:40093
       - Pool_ 35
       - Pool__409 | 2.11Mb
-      - 馃嚠馃嚦IN_2599 | 2.04Mb
       - Pool__5820
       - Pool_ 36
       - Pool_ 37
@@ -2645,7 +2629,6 @@ proxy-groups:
       - Pool_ 22
       - 🇺🇸 Pool_馃嚭馃嚫US_8866 | 2.26Mb
       - Pool_ | 3.52Mb
-      - Pool_ | 1.83Mb
       - Pool_馃嚠馃嚦IN_2625 | 2.42Mb
       - 🇷🇴 Pool_馃嚪馃嚧RO_4289
       - 🇷🇴 Pool_馃嚪馃嚧RO_4298
@@ -2793,7 +2776,6 @@ proxy-groups:
       - 103.152.151.86:40093
       - Pool_ 35
       - Pool__409 | 2.11Mb
-      - 馃嚠馃嚦IN_2599 | 2.04Mb
       - Pool__5820
       - Pool_ 36
       - Pool_ 37
