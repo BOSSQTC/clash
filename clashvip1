@@ -64,6 +64,13 @@ proxies:
   - {name: 🇰🇷 KR02, server: gdgz.marslink.icu, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
   - {name: 🇭🇰 HK07-IEPL | 3x, server: iepl.marslink.icu, port: 48236, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
   - {name: 🇯🇵 JP01-IEPL | 3x, server: iepl.marslink.icu, port: 35006, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
+  - {name: CYL-科技（2021.11.22）, server: hk.huanyumingle.xyz, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: 60a6bf3c-f656-441b-a48b-a57731af9fd6}
+  - {name: 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x, server: guangzhou-lw-03.pucdn.me, port: 11114, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-07.pucdn.me}}
+  - {name: 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x, server: guangzhou-lw-03.pucdn.me, port: 11117, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-10.pucdn.me}}
+  - {name: 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x, server: guangzhou-lw-03.pucdn.me, port: 11110, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-03.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆◆ SG 02 高速 1x, server: global-transit-hk-v2.pucdn.me, port: 31123, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-a-sg-02.pucdn.me}}
+  - {name: 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x, server: guangzhou-lw-03.pucdn.me, port: 11109, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-02.pucdn.me}}
+  - {name: 🇸🇬 新加坡◆◆SG 03  DO 1x, server: global-transit-hk-v2.pucdn.me, port: 31124, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-01.pucdn.me}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -129,6 +136,13 @@ proxy-groups:
       - 🇰🇷 KR02
       - 🇭🇰 HK07-IEPL | 3x
       - 🇯🇵 JP01-IEPL | 3x
+      - CYL-科技（2021.11.22）
+      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆ SG 02 高速 1x
+      - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -194,6 +208,13 @@ proxy-groups:
       - 🇰🇷 KR02
       - 🇭🇰 HK07-IEPL | 3x
       - 🇯🇵 JP01-IEPL | 3x
+      - CYL-科技（2021.11.22）
+      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆ SG 02 高速 1x
+      - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -259,6 +280,13 @@ proxy-groups:
       - 🇰🇷 KR02
       - 🇭🇰 HK07-IEPL | 3x
       - 🇯🇵 JP01-IEPL | 3x
+      - CYL-科技（2021.11.22）
+      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆ SG 02 高速 1x
+      - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
   - name: 📲 电报信息
     type: select
     proxies:
@@ -323,6 +351,13 @@ proxy-groups:
       - 🇰🇷 KR02
       - 🇭🇰 HK07-IEPL | 3x
       - 🇯🇵 JP01-IEPL | 3x
+      - CYL-科技（2021.11.22）
+      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆ SG 02 高速 1x
+      - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -387,6 +422,13 @@ proxy-groups:
       - 🇰🇷 KR02
       - 🇭🇰 HK07-IEPL | 3x
       - 🇯🇵 JP01-IEPL | 3x
+      - CYL-科技（2021.11.22）
+      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆ SG 02 高速 1x
+      - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -451,6 +493,13 @@ proxy-groups:
       - 🇰🇷 KR02
       - 🇭🇰 HK07-IEPL | 3x
       - 🇯🇵 JP01-IEPL | 3x
+      - CYL-科技（2021.11.22）
+      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆ SG 02 高速 1x
+      - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -516,6 +565,13 @@ proxy-groups:
       - 🇰🇷 KR02
       - 🇭🇰 HK07-IEPL | 3x
       - 🇯🇵 JP01-IEPL | 3x
+      - CYL-科技（2021.11.22）
+      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆ SG 02 高速 1x
+      - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -597,6 +653,13 @@ proxy-groups:
       - 🇰🇷 KR02
       - 🇭🇰 HK07-IEPL | 3x
       - 🇯🇵 JP01-IEPL | 3x
+      - CYL-科技（2021.11.22）
+      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
+      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆ SG 02 高速 1x
+      - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
