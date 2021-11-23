@@ -5,573 +5,213 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _282 | 1.76Mb, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _296 | 2.04Mb, server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _306 | 2.13Mb, server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体, server: gzcm-a3.galaxy-cloud.cc, port: 20112, type: vmess, uuid: 94adf6d9-ce5b-4a6b-a816-5888629ca662, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: gzcm-a3.galaxy-cloud.cc}}
-  - {name: 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体, server: qdcm-ds300.galaxy-cloud.cc, port: 40000, type: vmess, uuid: 94adf6d9-ce5b-4a6b-a816-5888629ca662, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: qdcm-ds300.galaxy-cloud.cc}}
-  - {name: 🇨🇳 A-高级-台湾01-原生【NETFLIX】, server: tw01.zniuniu.xyz, port: 30139, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇨🇳 A-高级-台湾02-原生【NETFLIX】, server: tw02.zniuniu.xyz, port: 30240, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 A-高级-香港15-原生-NETFIX, server: hk15.zniuniu.xyz, port: 31518, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 基础-新加坡区01(SG), server: sg01.zniuniu.xyz, port: 30164, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 基础-新加坡区02(SG), server: sg02.zniuniu.xyz, port: 30265, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 基础-新加坡区03(SG), server: sg03.zniuniu.xyz, port: 30366, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 基础-新加坡区04(SG), server: sg04.zniuniu.xyz, port: 30467, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 基础-新加坡区05(SG), server: sg05.zniuniu.xyz, port: 30568, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 基础-日本区1(JP), server: jp01.zniuniu.xyz, port: 30124, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 基础-日本区2(JP), server: jp02.zniuniu.xyz, port: 30225, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 基础-日本区3(JP), server: jp03.zniuniu.xyz, port: 30326, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 基础-日本区4(JP), server: jp04.zniuniu.xyz, port: 30427, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 基础-香港01丨, server: hk01.zniuniu.xyz, port: 30104, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 基础-香港03, server: hk03.zniuniu.xyz, port: 30306, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 基础-香港04, server: hk04.zniuniu.xyz, port: 30407, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 基础-香港05, server: hk05.zniuniu.xyz, port: 30508, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 基础-香港06, server: hk06.zniuniu.xyz, port: 30609, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 基础-香港07, server: hk07.zniuniu.xyz, port: 30710, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 基础-香港08, server: hk08.zniuniu.xyz, port: 30811, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 高级-新加坡06-全网通, server: sg06.zniuniu.xyz, port: 30669, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 高级-新加坡08-全网通, server: sg08.zniuniu.xyz, port: 30871, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 高级-新加坡09-全网通, server: sg09.zniuniu.xyz, port: 30972, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 高级-新加坡10-全网通, server: sg10.zniuniu.xyz, port: 31073, type: vmess, uuid: e8577779-fba3-38dd-bee0-a05e817538b3, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 v1-新加坡1, server: 2.kaikaiye.cyou, port: 36102, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 2.kaikaiye.cyou}}
-  - {name: 🇸🇬 v1-新加坡2, server: 23.kaikaiye.cyou, port: 36123, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.kaikaiye.cyou}}
-  - {name: 🇸🇬 v1-新加坡3, server: 13.kaikaiye.cyou, port: 36113, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.kaikaiye.cyou}}
-  - {name: 🇸🇬 v1-新加坡5, server: 35.kaikaiye.cyou, port: 56135, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 35.kaikaiye.cyou}}
-  - {name: 🇯🇵 v1-日本1, server: 1.kaikaiye.cyou, port: 36101, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 1.kaikaiye.cyou}}
-  - {name: 🇯🇵 v1-日本2, server: 16.kaikaiye.cyou, port: 36116, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.kaikaiye.cyou}}
-  - {name: 🇯🇵 v1-日本3, server: 3.kaikaiye.cyou, port: 36103, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.kaikaiye.cyou}}
-  - {name: 🇭🇰 v1-香港1, server: 4.kaikaiye.cyou, port: 36104, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 4.kaikaiye.cyou}}
-  - {name: 🇭🇰 v1-香港2, server: 5.kaikaiye.cyou, port: 26105, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5.kaikaiye.cyou}}
-  - {name: 🇸🇬 v2-新加坡2原生ip, server: 12.kaikaiye.cyou, port: 56112, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 12.kaikaiye.cyou}}
-  - {name: 🇸🇬 v2-新加坡4, server: 34.kaikaiye.cyou, port: 56134, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 34.kaikaiye.cyou}}
-  - {name: 🇯🇵 v2-日本1, server: 26.kaikaiye.cyou, port: 39126, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 26.kaikaiye.cyou}}
-  - {name: 🇯🇵 v2-日本2, server: 27.kaikaiye.cyou, port: 36127, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 27.kaikaiye.cyou}}
-  - {name: 🇯🇵 v2-日本3, server: 28.kaikaiye.cyou, port: 36128, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 28.kaikaiye.cyou}}
-  - {name: 🇯🇵 v2-日本5原生ip, server: 30.kaikaiye.cyou, port: 36130, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 30.kaikaiye.cyou}}
-  - {name: 🇯🇵 v2-日本6原生ip, server: 41.kaikaiye.cyou, port: 56141, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 41.kaikaiye.cyou}}
-  - {name: 🇭🇰 v2-香港3, server: 37.kaikaiye.cyou, port: 36137, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 37.kaikaiye.cyou}}
-  - {name: 🇭🇰 v2-香港4原生, server: 21.kaikaiye.cyou, port: 36121, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 21.kaikaiye.cyou}}
-  - {name: 🇭🇰 v2-香港5, server: 9.kaikaiye.cyou, port: 36109, type: vmess, uuid: 4d803b8c-bf70-3b13-a7d9-1d4461d1e069, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 9.kaikaiye.cyou}}
-  - {name: 🇭🇰 HK03, server: gdgz.marslink.icu, port: 41102, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇭🇰 HK04, server: gdgz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇭🇰 HK05, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇨🇳 TW01, server: gdgz.marslink.icu, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇯🇵 JP02, server: gdgz.marslink.icu, port: 41107, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇸🇬 SG01, server: gdgz.marslink.icu, port: 41108, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇺🇸 US02, server: gdgz.marslink.icu, port: 41111, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇺🇸 US03, server: gdgz.marslink.icu, port: 64025, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇰🇷 KR01, server: gdgz.marslink.icu, port: 41114, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇰🇷 KR02, server: gdgz.marslink.icu, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇭🇰 HK07-IEPL | 3x, server: iepl.marslink.icu, port: 48236, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇯🇵 JP01-IEPL | 3x, server: iepl.marslink.icu, port: 35006, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: CYL-科技（2021.11.22）, server: hk.huanyumingle.xyz, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: 60a6bf3c-f656-441b-a48b-a57731af9fd6}
-  - {name: 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x, server: guangzhou-lw-03.pucdn.me, port: 11114, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-07.pucdn.me}}
-  - {name: 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x, server: guangzhou-lw-03.pucdn.me, port: 11117, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-10.pucdn.me}}
-  - {name: 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x, server: guangzhou-lw-03.pucdn.me, port: 11110, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-03.pucdn.me}}
+  - {name: Pool_ | 1.14Mb, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇸🇬 新加坡◆◆SG 03  DO 1x, server: global-transit-hk-v2.pucdn.me, port: 31124, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-01.pucdn.me}}
+  - {name: 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡◆◆ SG 02 高速 1x, server: global-transit-hk-v2.pucdn.me, port: 31123, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-a-sg-02.pucdn.me}}
   - {name: 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x, server: guangzhou-lw-03.pucdn.me, port: 11109, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-02.pucdn.me}}
-  - {name: 🇸🇬 新加坡◆◆SG 03  DO 1x, server: global-transit-hk-v2.pucdn.me, port: 31124, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-01.pucdn.me}}
+  - {name: "|18.22Mb", server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _282 | 1.76Mb, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _306 | 2.13Mb, server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.11.23）, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: gzyd.tuboshu.space}}
+  - {name: CYL-科技（2021.11.23） 2, server: hk.huanyumingle.xyz, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
+  - {name: CYL-科技（2021.11.23） 3, server: hk.huanyumingle.xyz, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
+  - {name: CYL-科技（2021.11.23） 4, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: gzyd.tuboshu.space}}
+  - {name: CYL-科技（2021.11.23） 5, server: global-transit-02-sg.pucdn.me, port: 62005, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-06.pucdn.me}}
+  - {name: CYL-科技（2021.11.23） 6, server: global-transit-hk-v2.pucdn.me, port: 31125, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: global-transit-hk-v2.pucdn.me}}
+  - {name: CYL-科技（2021.11.23） 7, server: global-transit-02-sg.pucdn.me, port: 62007, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-08.pucdn.me}}
+  - {name: CYL-科技（2021.11.23） 8, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
+  - {name: CYL-科技（2021.11.23） 9, server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-06.pucdn.me}}
+  - {name: CYL-科技（2021.11.23） 10, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: B7wYOKgFl0YDIF3aOeCRl93eaSSa2pnzqZASDuxy4CN35CZpXAyjT6DEc8x38R}
+  - {name: CYL-科技（2021.11.23） 11, server: global-transit-hk-v2.pucdn.me, port: 31102, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-02.pucdn.me}}
+  - {name: CYL-科技（2021.11.23） 12, server: global-transit-hk-v2.pucdn.me, port: 10007, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-03.pucdn.me}}
+  - {name: CYL-科技（2021.11.23） 13, server: global-transit-02-sg.pucdn.me, port: 63002, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-02.pucdn.me}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _282 | 1.76Mb
-      - _296 | 2.04Mb
-      - _306 | 2.13Mb
-      - 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体
-      - 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体
-      - 🇨🇳 A-高级-台湾01-原生【NETFLIX】
-      - 🇨🇳 A-高级-台湾02-原生【NETFLIX】
-      - 🇭🇰 A-高级-香港15-原生-NETFIX
-      - 🇸🇬 基础-新加坡区01(SG)
-      - 🇸🇬 基础-新加坡区02(SG)
-      - 🇸🇬 基础-新加坡区03(SG)
-      - 🇸🇬 基础-新加坡区04(SG)
-      - 🇸🇬 基础-新加坡区05(SG)
-      - 🇯🇵 基础-日本区1(JP)
-      - 🇯🇵 基础-日本区2(JP)
-      - 🇯🇵 基础-日本区3(JP)
-      - 🇯🇵 基础-日本区4(JP)
-      - 🇭🇰 基础-香港01丨
-      - 🇭🇰 基础-香港03
-      - 🇭🇰 基础-香港04
-      - 🇭🇰 基础-香港05
-      - 🇭🇰 基础-香港06
-      - 🇭🇰 基础-香港07
-      - 🇭🇰 基础-香港08
-      - 🇸🇬 高级-新加坡06-全网通
-      - 🇸🇬 高级-新加坡08-全网通
-      - 🇸🇬 高级-新加坡09-全网通
-      - 🇸🇬 高级-新加坡10-全网通
-      - 🇸🇬 v1-新加坡1
-      - 🇸🇬 v1-新加坡2
-      - 🇸🇬 v1-新加坡3
-      - 🇸🇬 v1-新加坡5
-      - 🇯🇵 v1-日本1
-      - 🇯🇵 v1-日本2
-      - 🇯🇵 v1-日本3
-      - 🇭🇰 v1-香港1
-      - 🇭🇰 v1-香港2
-      - 🇸🇬 v2-新加坡2原生ip
-      - 🇸🇬 v2-新加坡4
-      - 🇯🇵 v2-日本1
-      - 🇯🇵 v2-日本2
-      - 🇯🇵 v2-日本3
-      - 🇯🇵 v2-日本5原生ip
-      - 🇯🇵 v2-日本6原生ip
-      - 🇭🇰 v2-香港3
-      - 🇭🇰 v2-香港4原生
-      - 🇭🇰 v2-香港5
-      - 🇭🇰 HK03
-      - 🇭🇰 HK04
-      - 🇭🇰 HK05
-      - 🇨🇳 TW01
-      - 🇯🇵 JP02
-      - 🇸🇬 SG01
-      - 🇺🇸 US02
-      - 🇺🇸 US03
-      - 🇰🇷 KR01
-      - 🇰🇷 KR02
-      - 🇭🇰 HK07-IEPL | 3x
-      - 🇯🇵 JP01-IEPL | 3x
-      - CYL-科技（2021.11.22）
-      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - Pool_ | 1.14Mb
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb
       - 🇸🇬 新加坡◆◆ SG 02 高速 1x
       - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
-      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - "|18.22Mb"
+      - _282 | 1.76Mb
+      - _306 | 2.13Mb
+      - CYL-科技（2021.11.23）
+      - CYL-科技（2021.11.23） 2
+      - CYL-科技（2021.11.23） 3
+      - CYL-科技（2021.11.23） 4
+      - CYL-科技（2021.11.23） 5
+      - CYL-科技（2021.11.23） 6
+      - CYL-科技（2021.11.23） 7
+      - CYL-科技（2021.11.23） 8
+      - CYL-科技（2021.11.23） 9
+      - CYL-科技（2021.11.23） 10
+      - CYL-科技（2021.11.23） 11
+      - CYL-科技（2021.11.23） 12
+      - CYL-科技（2021.11.23） 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _282 | 1.76Mb
-      - _296 | 2.04Mb
-      - _306 | 2.13Mb
-      - 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体
-      - 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体
-      - 🇨🇳 A-高级-台湾01-原生【NETFLIX】
-      - 🇨🇳 A-高级-台湾02-原生【NETFLIX】
-      - 🇭🇰 A-高级-香港15-原生-NETFIX
-      - 🇸🇬 基础-新加坡区01(SG)
-      - 🇸🇬 基础-新加坡区02(SG)
-      - 🇸🇬 基础-新加坡区03(SG)
-      - 🇸🇬 基础-新加坡区04(SG)
-      - 🇸🇬 基础-新加坡区05(SG)
-      - 🇯🇵 基础-日本区1(JP)
-      - 🇯🇵 基础-日本区2(JP)
-      - 🇯🇵 基础-日本区3(JP)
-      - 🇯🇵 基础-日本区4(JP)
-      - 🇭🇰 基础-香港01丨
-      - 🇭🇰 基础-香港03
-      - 🇭🇰 基础-香港04
-      - 🇭🇰 基础-香港05
-      - 🇭🇰 基础-香港06
-      - 🇭🇰 基础-香港07
-      - 🇭🇰 基础-香港08
-      - 🇸🇬 高级-新加坡06-全网通
-      - 🇸🇬 高级-新加坡08-全网通
-      - 🇸🇬 高级-新加坡09-全网通
-      - 🇸🇬 高级-新加坡10-全网通
-      - 🇸🇬 v1-新加坡1
-      - 🇸🇬 v1-新加坡2
-      - 🇸🇬 v1-新加坡3
-      - 🇸🇬 v1-新加坡5
-      - 🇯🇵 v1-日本1
-      - 🇯🇵 v1-日本2
-      - 🇯🇵 v1-日本3
-      - 🇭🇰 v1-香港1
-      - 🇭🇰 v1-香港2
-      - 🇸🇬 v2-新加坡2原生ip
-      - 🇸🇬 v2-新加坡4
-      - 🇯🇵 v2-日本1
-      - 🇯🇵 v2-日本2
-      - 🇯🇵 v2-日本3
-      - 🇯🇵 v2-日本5原生ip
-      - 🇯🇵 v2-日本6原生ip
-      - 🇭🇰 v2-香港3
-      - 🇭🇰 v2-香港4原生
-      - 🇭🇰 v2-香港5
-      - 🇭🇰 HK03
-      - 🇭🇰 HK04
-      - 🇭🇰 HK05
-      - 🇨🇳 TW01
-      - 🇯🇵 JP02
-      - 🇸🇬 SG01
-      - 🇺🇸 US02
-      - 🇺🇸 US03
-      - 🇰🇷 KR01
-      - 🇰🇷 KR02
-      - 🇭🇰 HK07-IEPL | 3x
-      - 🇯🇵 JP01-IEPL | 3x
-      - CYL-科技（2021.11.22）
-      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - Pool_ | 1.14Mb
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb
       - 🇸🇬 新加坡◆◆ SG 02 高速 1x
       - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
-      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - "|18.22Mb"
+      - _282 | 1.76Mb
+      - _306 | 2.13Mb
+      - CYL-科技（2021.11.23）
+      - CYL-科技（2021.11.23） 2
+      - CYL-科技（2021.11.23） 3
+      - CYL-科技（2021.11.23） 4
+      - CYL-科技（2021.11.23） 5
+      - CYL-科技（2021.11.23） 6
+      - CYL-科技（2021.11.23） 7
+      - CYL-科技（2021.11.23） 8
+      - CYL-科技（2021.11.23） 9
+      - CYL-科技（2021.11.23） 10
+      - CYL-科技（2021.11.23） 11
+      - CYL-科技（2021.11.23） 12
+      - CYL-科技（2021.11.23） 13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _282 | 1.76Mb
-      - _296 | 2.04Mb
-      - _306 | 2.13Mb
-      - 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体
-      - 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体
-      - 🇨🇳 A-高级-台湾01-原生【NETFLIX】
-      - 🇨🇳 A-高级-台湾02-原生【NETFLIX】
-      - 🇭🇰 A-高级-香港15-原生-NETFIX
-      - 🇸🇬 基础-新加坡区01(SG)
-      - 🇸🇬 基础-新加坡区02(SG)
-      - 🇸🇬 基础-新加坡区03(SG)
-      - 🇸🇬 基础-新加坡区04(SG)
-      - 🇸🇬 基础-新加坡区05(SG)
-      - 🇯🇵 基础-日本区1(JP)
-      - 🇯🇵 基础-日本区2(JP)
-      - 🇯🇵 基础-日本区3(JP)
-      - 🇯🇵 基础-日本区4(JP)
-      - 🇭🇰 基础-香港01丨
-      - 🇭🇰 基础-香港03
-      - 🇭🇰 基础-香港04
-      - 🇭🇰 基础-香港05
-      - 🇭🇰 基础-香港06
-      - 🇭🇰 基础-香港07
-      - 🇭🇰 基础-香港08
-      - 🇸🇬 高级-新加坡06-全网通
-      - 🇸🇬 高级-新加坡08-全网通
-      - 🇸🇬 高级-新加坡09-全网通
-      - 🇸🇬 高级-新加坡10-全网通
-      - 🇸🇬 v1-新加坡1
-      - 🇸🇬 v1-新加坡2
-      - 🇸🇬 v1-新加坡3
-      - 🇸🇬 v1-新加坡5
-      - 🇯🇵 v1-日本1
-      - 🇯🇵 v1-日本2
-      - 🇯🇵 v1-日本3
-      - 🇭🇰 v1-香港1
-      - 🇭🇰 v1-香港2
-      - 🇸🇬 v2-新加坡2原生ip
-      - 🇸🇬 v2-新加坡4
-      - 🇯🇵 v2-日本1
-      - 🇯🇵 v2-日本2
-      - 🇯🇵 v2-日本3
-      - 🇯🇵 v2-日本5原生ip
-      - 🇯🇵 v2-日本6原生ip
-      - 🇭🇰 v2-香港3
-      - 🇭🇰 v2-香港4原生
-      - 🇭🇰 v2-香港5
-      - 🇭🇰 HK03
-      - 🇭🇰 HK04
-      - 🇭🇰 HK05
-      - 🇨🇳 TW01
-      - 🇯🇵 JP02
-      - 🇸🇬 SG01
-      - 🇺🇸 US02
-      - 🇺🇸 US03
-      - 🇰🇷 KR01
-      - 🇰🇷 KR02
-      - 🇭🇰 HK07-IEPL | 3x
-      - 🇯🇵 JP01-IEPL | 3x
-      - CYL-科技（2021.11.22）
-      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - Pool_ | 1.14Mb
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb
       - 🇸🇬 新加坡◆◆ SG 02 高速 1x
       - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
-      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - "|18.22Mb"
+      - _282 | 1.76Mb
+      - _306 | 2.13Mb
+      - CYL-科技（2021.11.23）
+      - CYL-科技（2021.11.23） 2
+      - CYL-科技（2021.11.23） 3
+      - CYL-科技（2021.11.23） 4
+      - CYL-科技（2021.11.23） 5
+      - CYL-科技（2021.11.23） 6
+      - CYL-科技（2021.11.23） 7
+      - CYL-科技（2021.11.23） 8
+      - CYL-科技（2021.11.23） 9
+      - CYL-科技（2021.11.23） 10
+      - CYL-科技（2021.11.23） 11
+      - CYL-科技（2021.11.23） 12
+      - CYL-科技（2021.11.23） 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _282 | 1.76Mb
-      - _296 | 2.04Mb
-      - _306 | 2.13Mb
-      - 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体
-      - 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体
-      - 🇨🇳 A-高级-台湾01-原生【NETFLIX】
-      - 🇨🇳 A-高级-台湾02-原生【NETFLIX】
-      - 🇭🇰 A-高级-香港15-原生-NETFIX
-      - 🇸🇬 基础-新加坡区01(SG)
-      - 🇸🇬 基础-新加坡区02(SG)
-      - 🇸🇬 基础-新加坡区03(SG)
-      - 🇸🇬 基础-新加坡区04(SG)
-      - 🇸🇬 基础-新加坡区05(SG)
-      - 🇯🇵 基础-日本区1(JP)
-      - 🇯🇵 基础-日本区2(JP)
-      - 🇯🇵 基础-日本区3(JP)
-      - 🇯🇵 基础-日本区4(JP)
-      - 🇭🇰 基础-香港01丨
-      - 🇭🇰 基础-香港03
-      - 🇭🇰 基础-香港04
-      - 🇭🇰 基础-香港05
-      - 🇭🇰 基础-香港06
-      - 🇭🇰 基础-香港07
-      - 🇭🇰 基础-香港08
-      - 🇸🇬 高级-新加坡06-全网通
-      - 🇸🇬 高级-新加坡08-全网通
-      - 🇸🇬 高级-新加坡09-全网通
-      - 🇸🇬 高级-新加坡10-全网通
-      - 🇸🇬 v1-新加坡1
-      - 🇸🇬 v1-新加坡2
-      - 🇸🇬 v1-新加坡3
-      - 🇸🇬 v1-新加坡5
-      - 🇯🇵 v1-日本1
-      - 🇯🇵 v1-日本2
-      - 🇯🇵 v1-日本3
-      - 🇭🇰 v1-香港1
-      - 🇭🇰 v1-香港2
-      - 🇸🇬 v2-新加坡2原生ip
-      - 🇸🇬 v2-新加坡4
-      - 🇯🇵 v2-日本1
-      - 🇯🇵 v2-日本2
-      - 🇯🇵 v2-日本3
-      - 🇯🇵 v2-日本5原生ip
-      - 🇯🇵 v2-日本6原生ip
-      - 🇭🇰 v2-香港3
-      - 🇭🇰 v2-香港4原生
-      - 🇭🇰 v2-香港5
-      - 🇭🇰 HK03
-      - 🇭🇰 HK04
-      - 🇭🇰 HK05
-      - 🇨🇳 TW01
-      - 🇯🇵 JP02
-      - 🇸🇬 SG01
-      - 🇺🇸 US02
-      - 🇺🇸 US03
-      - 🇰🇷 KR01
-      - 🇰🇷 KR02
-      - 🇭🇰 HK07-IEPL | 3x
-      - 🇯🇵 JP01-IEPL | 3x
-      - CYL-科技（2021.11.22）
-      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - Pool_ | 1.14Mb
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb
       - 🇸🇬 新加坡◆◆ SG 02 高速 1x
       - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
-      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - "|18.22Mb"
+      - _282 | 1.76Mb
+      - _306 | 2.13Mb
+      - CYL-科技（2021.11.23）
+      - CYL-科技（2021.11.23） 2
+      - CYL-科技（2021.11.23） 3
+      - CYL-科技（2021.11.23） 4
+      - CYL-科技（2021.11.23） 5
+      - CYL-科技（2021.11.23） 6
+      - CYL-科技（2021.11.23） 7
+      - CYL-科技（2021.11.23） 8
+      - CYL-科技（2021.11.23） 9
+      - CYL-科技（2021.11.23） 10
+      - CYL-科技（2021.11.23） 11
+      - CYL-科技（2021.11.23） 12
+      - CYL-科技（2021.11.23） 13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _282 | 1.76Mb
-      - _296 | 2.04Mb
-      - _306 | 2.13Mb
-      - 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体
-      - 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体
-      - 🇨🇳 A-高级-台湾01-原生【NETFLIX】
-      - 🇨🇳 A-高级-台湾02-原生【NETFLIX】
-      - 🇭🇰 A-高级-香港15-原生-NETFIX
-      - 🇸🇬 基础-新加坡区01(SG)
-      - 🇸🇬 基础-新加坡区02(SG)
-      - 🇸🇬 基础-新加坡区03(SG)
-      - 🇸🇬 基础-新加坡区04(SG)
-      - 🇸🇬 基础-新加坡区05(SG)
-      - 🇯🇵 基础-日本区1(JP)
-      - 🇯🇵 基础-日本区2(JP)
-      - 🇯🇵 基础-日本区3(JP)
-      - 🇯🇵 基础-日本区4(JP)
-      - 🇭🇰 基础-香港01丨
-      - 🇭🇰 基础-香港03
-      - 🇭🇰 基础-香港04
-      - 🇭🇰 基础-香港05
-      - 🇭🇰 基础-香港06
-      - 🇭🇰 基础-香港07
-      - 🇭🇰 基础-香港08
-      - 🇸🇬 高级-新加坡06-全网通
-      - 🇸🇬 高级-新加坡08-全网通
-      - 🇸🇬 高级-新加坡09-全网通
-      - 🇸🇬 高级-新加坡10-全网通
-      - 🇸🇬 v1-新加坡1
-      - 🇸🇬 v1-新加坡2
-      - 🇸🇬 v1-新加坡3
-      - 🇸🇬 v1-新加坡5
-      - 🇯🇵 v1-日本1
-      - 🇯🇵 v1-日本2
-      - 🇯🇵 v1-日本3
-      - 🇭🇰 v1-香港1
-      - 🇭🇰 v1-香港2
-      - 🇸🇬 v2-新加坡2原生ip
-      - 🇸🇬 v2-新加坡4
-      - 🇯🇵 v2-日本1
-      - 🇯🇵 v2-日本2
-      - 🇯🇵 v2-日本3
-      - 🇯🇵 v2-日本5原生ip
-      - 🇯🇵 v2-日本6原生ip
-      - 🇭🇰 v2-香港3
-      - 🇭🇰 v2-香港4原生
-      - 🇭🇰 v2-香港5
-      - 🇭🇰 HK03
-      - 🇭🇰 HK04
-      - 🇭🇰 HK05
-      - 🇨🇳 TW01
-      - 🇯🇵 JP02
-      - 🇸🇬 SG01
-      - 🇺🇸 US02
-      - 🇺🇸 US03
-      - 🇰🇷 KR01
-      - 🇰🇷 KR02
-      - 🇭🇰 HK07-IEPL | 3x
-      - 🇯🇵 JP01-IEPL | 3x
-      - CYL-科技（2021.11.22）
-      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - Pool_ | 1.14Mb
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb
       - 🇸🇬 新加坡◆◆ SG 02 高速 1x
       - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
-      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - "|18.22Mb"
+      - _282 | 1.76Mb
+      - _306 | 2.13Mb
+      - CYL-科技（2021.11.23）
+      - CYL-科技（2021.11.23） 2
+      - CYL-科技（2021.11.23） 3
+      - CYL-科技（2021.11.23） 4
+      - CYL-科技（2021.11.23） 5
+      - CYL-科技（2021.11.23） 6
+      - CYL-科技（2021.11.23） 7
+      - CYL-科技（2021.11.23） 8
+      - CYL-科技（2021.11.23） 9
+      - CYL-科技（2021.11.23） 10
+      - CYL-科技（2021.11.23） 11
+      - CYL-科技（2021.11.23） 12
+      - CYL-科技（2021.11.23） 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _282 | 1.76Mb
-      - _296 | 2.04Mb
-      - _306 | 2.13Mb
-      - 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体
-      - 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体
-      - 🇨🇳 A-高级-台湾01-原生【NETFLIX】
-      - 🇨🇳 A-高级-台湾02-原生【NETFLIX】
-      - 🇭🇰 A-高级-香港15-原生-NETFIX
-      - 🇸🇬 基础-新加坡区01(SG)
-      - 🇸🇬 基础-新加坡区02(SG)
-      - 🇸🇬 基础-新加坡区03(SG)
-      - 🇸🇬 基础-新加坡区04(SG)
-      - 🇸🇬 基础-新加坡区05(SG)
-      - 🇯🇵 基础-日本区1(JP)
-      - 🇯🇵 基础-日本区2(JP)
-      - 🇯🇵 基础-日本区3(JP)
-      - 🇯🇵 基础-日本区4(JP)
-      - 🇭🇰 基础-香港01丨
-      - 🇭🇰 基础-香港03
-      - 🇭🇰 基础-香港04
-      - 🇭🇰 基础-香港05
-      - 🇭🇰 基础-香港06
-      - 🇭🇰 基础-香港07
-      - 🇭🇰 基础-香港08
-      - 🇸🇬 高级-新加坡06-全网通
-      - 🇸🇬 高级-新加坡08-全网通
-      - 🇸🇬 高级-新加坡09-全网通
-      - 🇸🇬 高级-新加坡10-全网通
-      - 🇸🇬 v1-新加坡1
-      - 🇸🇬 v1-新加坡2
-      - 🇸🇬 v1-新加坡3
-      - 🇸🇬 v1-新加坡5
-      - 🇯🇵 v1-日本1
-      - 🇯🇵 v1-日本2
-      - 🇯🇵 v1-日本3
-      - 🇭🇰 v1-香港1
-      - 🇭🇰 v1-香港2
-      - 🇸🇬 v2-新加坡2原生ip
-      - 🇸🇬 v2-新加坡4
-      - 🇯🇵 v2-日本1
-      - 🇯🇵 v2-日本2
-      - 🇯🇵 v2-日本3
-      - 🇯🇵 v2-日本5原生ip
-      - 🇯🇵 v2-日本6原生ip
-      - 🇭🇰 v2-香港3
-      - 🇭🇰 v2-香港4原生
-      - 🇭🇰 v2-香港5
-      - 🇭🇰 HK03
-      - 🇭🇰 HK04
-      - 🇭🇰 HK05
-      - 🇨🇳 TW01
-      - 🇯🇵 JP02
-      - 🇸🇬 SG01
-      - 🇺🇸 US02
-      - 🇺🇸 US03
-      - 🇰🇷 KR01
-      - 🇰🇷 KR02
-      - 🇭🇰 HK07-IEPL | 3x
-      - 🇯🇵 JP01-IEPL | 3x
-      - CYL-科技（2021.11.22）
-      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - Pool_ | 1.14Mb
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb
       - 🇸🇬 新加坡◆◆ SG 02 高速 1x
       - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
-      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - "|18.22Mb"
+      - _282 | 1.76Mb
+      - _306 | 2.13Mb
+      - CYL-科技（2021.11.23）
+      - CYL-科技（2021.11.23） 2
+      - CYL-科技（2021.11.23） 3
+      - CYL-科技（2021.11.23） 4
+      - CYL-科技（2021.11.23） 5
+      - CYL-科技（2021.11.23） 6
+      - CYL-科技（2021.11.23） 7
+      - CYL-科技（2021.11.23） 8
+      - CYL-科技（2021.11.23） 9
+      - CYL-科技（2021.11.23） 10
+      - CYL-科技（2021.11.23） 11
+      - CYL-科技（2021.11.23） 12
+      - CYL-科技（2021.11.23） 13
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _282 | 1.76Mb
-      - _296 | 2.04Mb
-      - _306 | 2.13Mb
-      - 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体
-      - 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体
-      - 🇨🇳 A-高级-台湾01-原生【NETFLIX】
-      - 🇨🇳 A-高级-台湾02-原生【NETFLIX】
-      - 🇭🇰 A-高级-香港15-原生-NETFIX
-      - 🇸🇬 基础-新加坡区01(SG)
-      - 🇸🇬 基础-新加坡区02(SG)
-      - 🇸🇬 基础-新加坡区03(SG)
-      - 🇸🇬 基础-新加坡区04(SG)
-      - 🇸🇬 基础-新加坡区05(SG)
-      - 🇯🇵 基础-日本区1(JP)
-      - 🇯🇵 基础-日本区2(JP)
-      - 🇯🇵 基础-日本区3(JP)
-      - 🇯🇵 基础-日本区4(JP)
-      - 🇭🇰 基础-香港01丨
-      - 🇭🇰 基础-香港03
-      - 🇭🇰 基础-香港04
-      - 🇭🇰 基础-香港05
-      - 🇭🇰 基础-香港06
-      - 🇭🇰 基础-香港07
-      - 🇭🇰 基础-香港08
-      - 🇸🇬 高级-新加坡06-全网通
-      - 🇸🇬 高级-新加坡08-全网通
-      - 🇸🇬 高级-新加坡09-全网通
-      - 🇸🇬 高级-新加坡10-全网通
-      - 🇸🇬 v1-新加坡1
-      - 🇸🇬 v1-新加坡2
-      - 🇸🇬 v1-新加坡3
-      - 🇸🇬 v1-新加坡5
-      - 🇯🇵 v1-日本1
-      - 🇯🇵 v1-日本2
-      - 🇯🇵 v1-日本3
-      - 🇭🇰 v1-香港1
-      - 🇭🇰 v1-香港2
-      - 🇸🇬 v2-新加坡2原生ip
-      - 🇸🇬 v2-新加坡4
-      - 🇯🇵 v2-日本1
-      - 🇯🇵 v2-日本2
-      - 🇯🇵 v2-日本3
-      - 🇯🇵 v2-日本5原生ip
-      - 🇯🇵 v2-日本6原生ip
-      - 🇭🇰 v2-香港3
-      - 🇭🇰 v2-香港4原生
-      - 🇭🇰 v2-香港5
-      - 🇭🇰 HK03
-      - 🇭🇰 HK04
-      - 🇭🇰 HK05
-      - 🇨🇳 TW01
-      - 🇯🇵 JP02
-      - 🇸🇬 SG01
-      - 🇺🇸 US02
-      - 🇺🇸 US03
-      - 🇰🇷 KR01
-      - 🇰🇷 KR02
-      - 🇭🇰 HK07-IEPL | 3x
-      - 🇯🇵 JP01-IEPL | 3x
-      - CYL-科技（2021.11.22）
-      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - Pool_ | 1.14Mb
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb
       - 🇸🇬 新加坡◆◆ SG 02 高速 1x
       - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
-      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - "|18.22Mb"
+      - _282 | 1.76Mb
+      - _306 | 2.13Mb
+      - CYL-科技（2021.11.23）
+      - CYL-科技（2021.11.23） 2
+      - CYL-科技（2021.11.23） 3
+      - CYL-科技（2021.11.23） 4
+      - CYL-科技（2021.11.23） 5
+      - CYL-科技（2021.11.23） 6
+      - CYL-科技（2021.11.23） 7
+      - CYL-科技（2021.11.23） 8
+      - CYL-科技（2021.11.23） 9
+      - CYL-科技（2021.11.23） 10
+      - CYL-科技（2021.11.23） 11
+      - CYL-科技（2021.11.23） 12
+      - CYL-科技（2021.11.23） 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -594,72 +234,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _282 | 1.76Mb
-      - _296 | 2.04Mb
-      - _306 | 2.13Mb
-      - 🇭🇰 香港 8-Vmess-HA 中继-倍率*1.5-流媒体
-      - 🇨🇳 台湾 2-Vmess-RE 中继-倍率*1.5-流媒体
-      - 🇨🇳 A-高级-台湾01-原生【NETFLIX】
-      - 🇨🇳 A-高级-台湾02-原生【NETFLIX】
-      - 🇭🇰 A-高级-香港15-原生-NETFIX
-      - 🇸🇬 基础-新加坡区01(SG)
-      - 🇸🇬 基础-新加坡区02(SG)
-      - 🇸🇬 基础-新加坡区03(SG)
-      - 🇸🇬 基础-新加坡区04(SG)
-      - 🇸🇬 基础-新加坡区05(SG)
-      - 🇯🇵 基础-日本区1(JP)
-      - 🇯🇵 基础-日本区2(JP)
-      - 🇯🇵 基础-日本区3(JP)
-      - 🇯🇵 基础-日本区4(JP)
-      - 🇭🇰 基础-香港01丨
-      - 🇭🇰 基础-香港03
-      - 🇭🇰 基础-香港04
-      - 🇭🇰 基础-香港05
-      - 🇭🇰 基础-香港06
-      - 🇭🇰 基础-香港07
-      - 🇭🇰 基础-香港08
-      - 🇸🇬 高级-新加坡06-全网通
-      - 🇸🇬 高级-新加坡08-全网通
-      - 🇸🇬 高级-新加坡09-全网通
-      - 🇸🇬 高级-新加坡10-全网通
-      - 🇸🇬 v1-新加坡1
-      - 🇸🇬 v1-新加坡2
-      - 🇸🇬 v1-新加坡3
-      - 🇸🇬 v1-新加坡5
-      - 🇯🇵 v1-日本1
-      - 🇯🇵 v1-日本2
-      - 🇯🇵 v1-日本3
-      - 🇭🇰 v1-香港1
-      - 🇭🇰 v1-香港2
-      - 🇸🇬 v2-新加坡2原生ip
-      - 🇸🇬 v2-新加坡4
-      - 🇯🇵 v2-日本1
-      - 🇯🇵 v2-日本2
-      - 🇯🇵 v2-日本3
-      - 🇯🇵 v2-日本5原生ip
-      - 🇯🇵 v2-日本6原生ip
-      - 🇭🇰 v2-香港3
-      - 🇭🇰 v2-香港4原生
-      - 🇭🇰 v2-香港5
-      - 🇭🇰 HK03
-      - 🇭🇰 HK04
-      - 🇭🇰 HK05
-      - 🇨🇳 TW01
-      - 🇯🇵 JP02
-      - 🇸🇬 SG01
-      - 🇺🇸 US02
-      - 🇺🇸 US03
-      - 🇰🇷 KR01
-      - 🇰🇷 KR02
-      - 🇭🇰 HK07-IEPL | 3x
-      - 🇯🇵 JP01-IEPL | 3x
-      - CYL-科技（2021.11.22）
-      - 🇭🇰 香港◆◆HKT 07 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 10 PPCW Netflix 1x
-      - 🇭🇰 香港◆◆HKT 03 PPCW  Netflix 1x
+      - Pool_ | 1.14Mb
+      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - 🇨🇳 馃嚚馃嚦CN_159 |20.16Mb
       - 🇸🇬 新加坡◆◆ SG 02 高速 1x
       - 🇭🇰 香港◆◆HKT 02 PPCW  Netflix 1x
-      - 🇸🇬 新加坡◆◆SG 03  DO 1x
+      - "|18.22Mb"
+      - _282 | 1.76Mb
+      - _306 | 2.13Mb
+      - CYL-科技（2021.11.23）
+      - CYL-科技（2021.11.23） 2
+      - CYL-科技（2021.11.23） 3
+      - CYL-科技（2021.11.23） 4
+      - CYL-科技（2021.11.23） 5
+      - CYL-科技（2021.11.23） 6
+      - CYL-科技（2021.11.23） 7
+      - CYL-科技（2021.11.23） 8
+      - CYL-科技（2021.11.23） 9
+      - CYL-科技（2021.11.23） 10
+      - CYL-科技（2021.11.23） 11
+      - CYL-科技（2021.11.23） 12
+      - CYL-科技（2021.11.23） 13
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
